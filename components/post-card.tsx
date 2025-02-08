@@ -37,9 +37,9 @@ export function PostCard({
             <Image
               src={profileImage}
               alt={`${author}'s profile`}
-              width={40}
-              height={40}
-              className="w-10 h-10 rounded-full object-cover"
+              width={30}
+              height={30}
+              className="w-[30px] h-[30px] rounded-full object-cover"
             />
           ) : (
             <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center">

@@ -8,7 +8,7 @@ export default function BottomNav() {
   const pathname = usePathname();
 
   const navItems = [
-    { href: "/feed", icon: Home },
+    { href: "/", icon: Home },
     { href: "/guilds", icon: Users2 },
     { href: "/token", icon: DollarSign },
     { href: "/earn", icon: RefreshCw },
@@ -16,7 +16,7 @@ export default function BottomNav() {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-black p-4">
+    <div className="fixed bottom-0 left-0 right-0 bg-[#0A141D] p-4">
       <div className="flex justify-between items-center max-w-lg mx-auto">
         {navItems.map((item) => {
           const Icon = item.icon;
