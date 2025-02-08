@@ -47,7 +47,7 @@ export function PostCard({
             </div>
           )}
           <div>
-            <div className="flex items-center gap-2">
+            <div className="flex text-[#413A3A] items-center gap-2">
               <span className="font-semibold">{author}</span>
               <span className="text-gray-500">{handle}</span>
               <span className="text-gray-500">{time}</span>
