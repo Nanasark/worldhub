@@ -32,7 +32,7 @@ export default function RootLayout({
           <ErudaProvider>
             <MiniKitProvider>
               <ThirdwebProvider>
-              <main className="flex-grow overflow-y-auto pb-16">
+              <main className="flex-grow bg-white overflow-y-auto pb-16">
                 {children}
               </main>
               <BottomNav />

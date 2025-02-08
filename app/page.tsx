@@ -23,7 +23,7 @@ export default function Home() {
       <main className="flex min-h-screen bg-white flex-col items-center justify-center p-24">
         <p>Please sign in to access the homepage</p>
         <SignInBtn />
-        <LoginButton />
+      
       </main>
     );
   }
