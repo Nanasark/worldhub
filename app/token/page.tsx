@@ -19,7 +19,7 @@ export default function TokenPage() {
   ];
 
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen bg-[#131E28] text-white">
       <div className="p-4 space-y-6">
         <div className="flex items-center gap-4">
           <div className="flex-1 relative">

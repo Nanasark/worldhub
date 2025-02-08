@@ -56,7 +56,7 @@ export default function TokenTradingPage({
   ];
 
   return (
-    <div className="min-h-screen text-white p-4">
+    <div className="min-h-screen bg-[#131E28] text-white p-4">
       <Link href="/token" className="flex items-center text-blue-500 mb-4">
         <ArrowLeftCircle className="mr-2" /> Back to Tokens
       </Link>

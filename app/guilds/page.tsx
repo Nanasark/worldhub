@@ -59,13 +59,13 @@ export default function GuildView() {
           <div className="p-4 hover:bg-gray-800/50 cursor-pointer">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+                {/* <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img
                     src="/placeholder.svg"
                     alt="Announcements"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </div> */}
                 <div>
                   <h2 className="text-white font-semibold text-lg">
                     Announcements
