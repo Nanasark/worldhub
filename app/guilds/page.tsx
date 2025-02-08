@@ -2,11 +2,11 @@ import { Plus } from "lucide-react";
 
 export default function GuildView() {
   const joinedGuilds = [
-    { name: "World Build", avatar: "/placeholder.svg", unread: 3 },
-    { name: "Crypto Traders", avatar: "/placeholder.svg", unread: 0 },
-    { name: "NFT Creators", avatar: "/placeholder.svg", unread: 1 },
-    { name: "DeFi Explorers", avatar: "/placeholder.svg", unread: 0 },
-    { name: "Blockchain Devs", avatar: "/placeholder.svg", unread: 2 },
+    { name: "World Build", avatar: "/world.jpg", unread: 3 },
+    { name: "Crypto Traders", avatar: "/agric.jpg", unread: 0 },
+    { name: "NFT Creators", avatar: "/constr.jpg", unread: 1 },
+    { name: "DeFi Explorers", avatar: "/money.jpg", unread: 0 },
+    { name: "Blockchain Devs", avatar: "/sunset.jpg", unread: 2 },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function GuildView() {
         <div className="p-6 flex items-center gap-4 border-b border-gray-800">
           <div className="w-16 h-16 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
             <img
-              src="/placeholder.svg"
+              src="/world.jpg"
               alt="World Build"
               className="w-full h-full object-cover"
             />
@@ -95,13 +95,13 @@ export default function GuildView() {
           <div className="p-4 hover:bg-gray-800/50 cursor-pointer">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+                {/* <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img
                     src="/placeholder.svg"
                     alt="General"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </div> */}
                 <div>
                   <h2 className="text-white font-semibold text-lg">
                     General Discussions
@@ -124,13 +124,13 @@ export default function GuildView() {
           <div className="p-4 hover:bg-gray-800/50 cursor-pointer">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+                {/* <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img
                     src="/placeholder.svg"
                     alt="Team"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </div> */}
                 <div>
                   <h2 className="text-white font-semibold text-lg">
                     Find A Team

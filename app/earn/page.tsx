@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function EarnPage() {
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen bg-[#131E28]  text-white">
       <div className="flex items-center justify-between p-4 border-b border-gray-800">
         <div className="flex gap-4">
           <Link href="/earn" className="border-b-2 border-white">
@@ -23,7 +23,7 @@ export default function EarnPage() {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center">
                 <img
-                  src="/placeholder.svg"
+                  src="/eth.jpg"
                   alt="Ethereum"
                   className="w-8 h-8"
                 />

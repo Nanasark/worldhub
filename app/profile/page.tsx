@@ -22,7 +22,7 @@ export default function ProfilePage() {
         <div className="flex flex-col items-center space-y-4">
           <div className="w-24 h-24 rounded-full border-4 border-white overflow-hidden">
             <img
-              src="/placeholder.svg"
+              src="/dp.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
